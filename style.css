@@ -1,0 +1,34 @@
+body {
+  color: black;
+  /*makes text reable on background*/
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.headshot{
+    margin-left: auto;
+    max-width: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.asstable {
+  border: 0px solid;
+}
+
+.asstable tr:nth-child(even) {
+  background-color: yellow;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: purple;
+}
+
+.gsu {
+    color: red;
+    font-weight: bold;
+}
